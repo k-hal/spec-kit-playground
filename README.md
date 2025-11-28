@@ -13,6 +13,7 @@
 2. `inputs/questions/` に検証したい質問やタスクを追加します。
 3. `inputs/cases.yaml` に、どの質問をどのプロンプトで実行するかの組み合わせを追加します。
 4. spec-kit のランナーから `inputs/` を参照させることで評価を開始できます。
+   - 例: `spec-kit run --inputs ./inputs --cases ./inputs/cases.yaml`
 
 ## 次にやることのヒント
 - spec-kit の設定フォーマットに合わせて `cases.yaml` に項目を増やす
