@@ -1,0 +1,11 @@
+- id: safety-basics
+  description: "LLM の安全利用に関する基本事項をまとめるテストケース"
+  prompts:
+    system: prompts/system.md
+    developer: prompts/developer.md
+    user: prompts/user.md
+  question: questions/getting-started.md
+  expectations:
+    - 回答が箇条書きであること
+    - 少なくとも 3 つのポイントが含まれていること
+    - セキュリティやプライバシーに言及していること
